@@ -4,15 +4,15 @@ import './Printing.css';
 
 const Printing = () => {
   const images = [
-    "/images/printing/IMG_0303.jpg",
-    "/images/printing/IMG_1819.jpg",
-    "/images/printing/IMG_1913.jpg",
-    "/images/printing/IMG_2087.jpg",
-    "/images/printing/IMG_5735.JPG",
-    "/images/printing/PXL_20250610_014009376.PORTRAIT.jpg",
-    "/images/printing/PXL_20250726_013148925.jpg",
-    "/images/printing/PXL_20250806_065732433.PORTRAIT.ORIGINAL.jpg",
-    "/images/printing/Screenshot 2026-06-06 140103.png"
+    "./images/printing/IMG_0303.jpg",
+    "./images/printing/IMG_1819.jpg",
+    "./images/printing/IMG_1913.jpg",
+    "./images/printing/IMG_2087.jpg",
+    "./images/printing/IMG_5735.JPG",
+    "./images/printing/PXL_20250610_014009376.PORTRAIT.jpg",
+    "./images/printing/PXL_20250726_013148925.jpg",
+    "./images/printing/PXL_20250806_065732433.PORTRAIT.ORIGINAL.jpg",
+    "./images/printing/Screenshot 2026-06-06 140103.png"
   ];
 
   return (

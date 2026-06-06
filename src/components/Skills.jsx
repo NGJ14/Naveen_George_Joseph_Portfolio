@@ -14,12 +14,12 @@ const Skills = () => {
 
   // Reference local images for tools (to be saved in public/logos/ directory)
   const exactTools = [
-    { name: 'Fusion 360', icon: '/logos/fusion.webp' },
-    { name: 'SolidWorks', icon: '/logos/solidworks.png' },
-    { name: 'AutoCAD', icon: '/logos/autocad.webp' },
-    { name: 'Cura', icon: '/logos/cura.webp' },
-    { name: 'SeeNC', icon: '/logos/seenc.webp' },
-    { name: 'Python', icon: '/logos/python.webp' },
+    { name: 'Fusion 360', icon: './logos/fusion.webp' },
+    { name: 'SolidWorks', icon: './logos/solidworks.png' },
+    { name: 'AutoCAD', icon: './logos/autocad.webp' },
+    { name: 'Cura', icon: './logos/cura.webp' },
+    { name: 'SeeNC', icon: './logos/seenc.webp' },
+    { name: 'Python', icon: './logos/python.webp' },
     { name: 'React JS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' },
     { name: 'VS Code', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg' }
   ];
