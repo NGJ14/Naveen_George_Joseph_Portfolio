@@ -1,0 +1,67 @@
+.education {
+  background-color: var(--bg-main);
+}
+
+.education-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 16px;
+}
+
+.edu-header {
+  margin-bottom: 1.5rem;
+}
+
+.edu-title-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.edu-icon-wrapper {
+  background-color: rgba(67, 97, 238, 0.1);
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-title-group h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.edu-title-group h4 {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.edu-details {
+  display: flex;
+  gap: 2rem;
+  margin-left: 4.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.edu-detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .edu-title-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .edu-details {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1rem;
+  }
+}
